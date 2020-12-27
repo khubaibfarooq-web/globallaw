@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto|Roboto+Slab|Ubuntu&display=swap');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+/*********************
+DARK-MODE-THEME
+**********************/
+#darkmode-nav{
+	color: #fff !important; 
+}
+.darkmode-bg{
+	background-color:#18191a !important;
+	color: #fff !important;
+	transition-property:background-color;
+	transition-duration:.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.darkmode-content{
+
+	background-color:#242526 !important;
+	color: #fff !important;
+	border-radius: 10px !important;
+	border-bottom: 0px;
+	box-shadow: none !important;
+	color: #fff !important;
+	transition-property:background-color;
+	transition-duration:.5s;
+	transition-timing-function: ease-in-out;
+}
+.rights-icon-dark{
+	box-shadow: none !important;
+	background-color:#3d3f40 !important;
+	color: #fff;
+}
+.dark-text{
+	color: #fff !important;
+}
+.dark-mode-btn{
+	background-color: #3c3d3e87;
+}
+
+
+

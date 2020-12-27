@@ -1,0 +1,86 @@
+/*********************
+OUR-TEAM
+**********************/
+#our-team{
+padding: 70px 0;
+}
+#our-team .section-title{
+text-align: center;
+padding-bottom: 15px;
+margin: 0;
+}
+#our-team .section-title h3{
+position: relative;
+font-size: 34px;
+margin-bottom: 50px;
+text-transform: uppercase;
+font-weight: 700;
+line-height: 34px;
+/*font-family: 'Ubuntu', sans-serif;*/
+}
+#our-team .section-title h3:after{
+content: '';
+background:
+#ff0000;
+height: 2px;
+width: 60px;
+position: absolute;
+bottom: -30px;
+left: 50%;
+margin-left: -30px;
+}
+.team-member{
+border-radius: 15px;
+text-align: center;
+margin-bottom: 30px;
+background:#fff;
+padding-bottom: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.team-member .team-mem-img-thumb{
+margin-bottom: 14px;
+overflow: hidden;
+}
+
+.team-member h4 {
+font-family: 'Poppins', sans-serif;
+margin-bottom: 2px;
+text-transform: uppercase;
+}
+.position{
+display: block;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 4px;
+text-transform: capitalize;
+font-size: 14px;
+
+}
+.team-member ul {
+list-style-type: none;
+margin:0;
+padding: 0;
+}
+.team-member ul li{
+display: inline-block;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.social {
+margin-top: 15px;
+
+}
+.social li a {
+display: block;
+height: 36px;
+width: 36px;
+color:#fff !important;
+line-height: 36px;
+text-align: center;
+text-decoration: none !important;
+background:#999;
+transition: .4s;
+}
+.social li a:hover {
+background-color: #333;
+}
